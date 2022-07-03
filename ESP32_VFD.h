@@ -1,7 +1,7 @@
 #include "vfd.h"
 #include <WiFi.h>
 #include <WiFiMulti.h>
-#include <ESP32Time.h>
+#include <ESP32Time.h>  //https://github.com/fbiego/ESP32Time
 #include "sntp.h"
 
 const char* ssid    = "WiFi名称";
