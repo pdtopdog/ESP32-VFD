@@ -117,6 +117,6 @@ void VFDinit() {
     VFDWriteASCii(i, 0x7F);
   }
   delay(1000);
-  VFDclearScreen();               //clear the screen
+  VFDclearScreen();               //清屏
   VFDMode(true);
 }
